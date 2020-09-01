@@ -1,10 +1,11 @@
-# Picking_flowers
+# Picking Flowers
 
 ## Introduction @unplugged
 
 The maps and levels in a game are important to make the game interesting to explore. ``||scene:Tilemaps||`` are used to create maps for the player to explore, which can even be set to prevent the player from moving past certain points.
 We are going to use a tilemap to make a wonderful garden!
-## 
+
+## _
 ### An empty Map 
 
 Find ``||scene:set tilemap to||`` in ``||scene:Scene||``. Drag it into ``||loops:on start||``.
@@ -33,10 +34,9 @@ tiles.setTilemap(tiles.createTilemap(
     [],
     TileScale.Sixteen
 ))
-
 ```
 
-## 
+## _
 ### Add some Trees
 
 Click on the grey box in ``||scene:set tilemap to||`` to open the tilemap editor. Pick a tile from the gallery, and draw a small tilemap for the ``||scene:tilemap||``.
@@ -67,7 +67,6 @@ tiles.setTilemap(tiles.createTilemap(
     [myTiles.tile0,myTiles.tile1],
     TileScale.Sixteen
 ))
-
 ```
 
 ## _
@@ -226,16 +225,16 @@ let sarah = sprites.create(img`
     . . . . . f f . . f f . . . . .
 `, SpriteKind.Player)
 controller.moveSprite(sarah)
-
 ```
 
 ## Complete @fullscreen
+### You did it!
 
 Congratulations, your first tilemap is complete! 
 The last thing you need to do is, use ``||scene:camera follow sprite mySprite||`` from the scene drawer to make it so the camera stays centered on the character you control, so that you can explore the entire map!  
 
 Try to move the character around the screen, or create more types of ``||scene:tiles||``. If you expand the ``||scene:tilemap||`` image, you can create a larger map.
-Explore the tilemap for a bit more, then the instructors will show you more ways to enhnace your map!
+After finishing the tutorial add a bunch of **flower** and **grass** tiles to your map, then the instructors will show you more ways to pick flowers!
 
 ```blocks
 tiles.setTilemap(tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000001000000000001010101000000000000010100000000000000000000000000000001000000000000000000000000000000000100000000000001010000000000000001000000000000010000010100000000000101010000000000010100000000000000000000000000000101000000000000000000000000000000010000000000000000000000000000000000000000000000000000010100000000000001010101010101010100000000000000000000000000000000000000`, img`
