@@ -234,7 +234,7 @@ Congratulations, your first tilemap is complete!
 The last thing you need to do is, use ``||scene:camera follow sprite mySprite||`` from the scene drawer to make it so the camera stays centered on the character you control, so that you can explore the entire map!  
 
 Try to move the character around the screen, or create more types of ``||scene:tiles||``. If you expand the ``||scene:tilemap||`` image, you can create a larger map.
-After finishing the tutorial add a bunch of **flower** and **grass** tiles to your map, then the instructors will show you more ways to pick flowers!
+After finishing the tutorial add a bunch of **flower** and **grass** tiles to your map, then the instructors will show you how to pick flowers!
 
 ```blocks
 tiles.setTilemap(tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000001000000000001010101000000000000010100000000000000000000000000000001000000000000000000000000000000000100000000000001010000000000000001000000000000010000010100000000000101010000000000010100000000000000000000000000000101000000000000000000000000000000010000000000000000000000000000000000000000000000000000010100000000000001010101010101010100000000000000000000000000000000000000`, img`
