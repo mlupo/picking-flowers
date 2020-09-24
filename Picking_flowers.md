@@ -7,10 +7,13 @@ We are going to use a tilemap to make a wonderful garden!
 
 ## _
 ### An empty Map 
+The very first thing we will do is add a background. Find the ``||scene:set background colour to||`` block from the scene drawer and drag it into ``||loops:on start||``.  
+Click the grey bubble, and select the colour green. This will add a green backdrop for us to draw on to!
 
-Find ``||scene:set tilemap to||`` in ``||scene:Scene||``. Drag it into ``||loops:on start||``.
+Next, find ``||scene:set tilemap to||`` in ``||scene:Scene||``, and drag that underneath the last block.
 
 ```blocks
+scene.setBackgroundColor(7)
 tiles.setTilemap(tiles.createTilemap(
     hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`,
     img`
