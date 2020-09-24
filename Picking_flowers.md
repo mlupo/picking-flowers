@@ -39,7 +39,8 @@ tiles.setTilemap(tiles.createTilemap(
 ## _
 ### Add some Trees
 
-Click on the grey box in ``||scene:set tilemap to||`` to open the tilemap editor. Pick a tile from the gallery, and draw a small tilemap for the ``||scene:tilemap||``.
+Click on the grey box in ``||scene:set tilemap to||`` to open the tilemap editor. Pick a **tree** tile from the gallery, and draw a small forest for the ``||scene:tilemap||``.
+Don't worry about other background details just yet! Right now just focus on putting down some trees.
 
 Run the code, and notice that the tilemap is shown as the background. Each pixel of the drawing in the image editor is shown as a 16x16 square on the screen.
 
@@ -125,7 +126,7 @@ Find ``||controller:move mySprite with buttons||`` and drag it into ``||loops:on
 
 Again, change the placeholder name ``||controllers:mySprite||`` to be the name of your character.
 
-This lets the player move the character around the map that is displayed on the screen. However, there is one issue; the player can move straight through the beautiful tiles we designed! This is fixed by changing all of them to be ``||scene:Wall||`` tiles.
+This lets the player move the character around the map that is displayed on the screen. However, there is one issue; the player can move straight through the beautiful trees we designed! This is fixed by changing all of them to be ``||scene:Wall||`` tiles.
 We will solve this problem in the next step!
 
 ```blocks
@@ -231,7 +232,7 @@ controller.moveSprite(sarah)
 ### You did it!
 
 Congratulations, your first tilemap is complete! 
-The last thing you need to do is, use ``||scene:camera follow sprite mySprite||`` from the scene drawer to make it so the camera stays centered on the character you control, so that you can explore the entire map!  
+The next thing you need to do is, use ``||scene:camera follow sprite mySprite||`` from the scene drawer to make it so the camera stays centered on the character you control, so that you can explore the entire map!  
 
 Try to move the character around the screen, or create more types of ``||scene:tiles||``. If you expand the ``||scene:tilemap||`` image, you can create a larger map.
 After finishing the tutorial add a bunch of **flower** and **grass** tiles to your map, then the instructors will show you how to pick flowers!
