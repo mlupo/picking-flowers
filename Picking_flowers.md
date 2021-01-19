@@ -1,6 +1,6 @@
 # Picking Flowers
 
-## Introduction @unplugged
+## Introduction @showdialog
 
 The maps and levels in a game are important to make the game interesting to explore. ``||scene:Tilemaps||`` are used to create maps for the player to explore, which can even be set to prevent the player from moving past certain points.
 We are going to use a tilemap to make a wonderful garden!
@@ -177,7 +177,7 @@ let sarah = sprites.create(img`
 controller.moveSprite(sarah)
 ```
 
-## _ @fullscreen
+## _ @showhint
 ### Draw Some Walls
 
 Open the tilemap editor, and click on the wall icon above `Gallery`.
@@ -231,7 +231,7 @@ let sarah = sprites.create(img`
 controller.moveSprite(sarah)
 ```
 
-## Complete @fullscreen
+## Complete @showhint
 ### You did it!
 
 Congratulations, your first tilemap is complete! 
